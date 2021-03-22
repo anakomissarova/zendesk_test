@@ -4,6 +4,9 @@ from helpers.app import Application
 
 @pytest.fixture
 def app(request):
+    """
+    Provides tests with settings to access REST API and with access to methods to manipulate Sell's entities
+    """
     baseurl = request.config.getoption('--baseUrl')
     api_version = request.config.getoption('--apiVersion')
     api_token = request.config.getoption('--apiToken')
