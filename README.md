@@ -1,4 +1,4 @@
-How to install and run tests:
+How to install and run tests:\
 0. Prerequisites: installed Python 3, venv, git
 1. Clone repo\
 `git clone https://github.com/anakomissarova/zendesk_test`
